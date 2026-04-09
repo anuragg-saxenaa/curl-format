@@ -1,0 +1,22 @@
+{
+  "name": "curl-format",
+  "version": "1.0.0",
+  "description": "Format and colorize curl commands for readability",
+  "main": "src/cli.js",
+  "bin": {
+    "curl-format": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "license": "MIT",
+  "keywords": ["curl", "cli", "formatter", "colorize"]
+}
